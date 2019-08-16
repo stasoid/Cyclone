@@ -11,8 +11,8 @@ cd ~/cyclone
 make
 sudo make install
 ```
-After that we have Cyclone binaries in `/opt/cyclone`. I packed those files together with the binaries of gcc toolchain that it requires.
-`bin/` and `lib/` contain files of gcc toolchain, copied from tjim-cyclone `/usr/bin`, `/usr/lib` and `/lib`.
+After that we have Cyclone binaries in `/opt/cyclone/local`. I packed those files together with the binaries of gcc toolchain that it requires.
+`cyclone/bin` and `cyclone/lib` contain files of gcc toolchain, copied from tjim-cyclone `/usr/bin`, `/usr/lib` and `/lib`.
 
 To make sure that correct files are linked on Fedora 64 bit, I used command `cyclone -v tst.cyc -Wl,--verbose 2> verbose-gcc > verbose-ld`.
 To make sure that correct files are #included I used command `cyclone -M tst.cyc`.
