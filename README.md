@@ -1,4 +1,4 @@
-This repo is for Cyclone binaries to be used on TIO.
+This repo is for [Cyclone](https://en.wikipedia.org/wiki/Cyclone_(programming_language)) binaries to be used on [TIO](https://tio.run/#).
 
 I used [tjim/cyclone vagrant VM](http://trevorjim.com/unfrozen-cyclone/).
 tjim/cyclone has sources and installed binaries of the latest development version of Cyclone.
